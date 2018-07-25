@@ -98,7 +98,7 @@
                 </label>
             </td>
             <td>兴趣爱好</td>
-            <td><input type="text" placeholder="请输入兴趣爱好" id="hobbies"></td>
+            <td><input type="text" placeholder="${sessionScope.message.hobbies}" id="hobbies"></td>
         </tr>
         <tr style="text-align: center">
             <td colspan="2"><button class="btn btn-primary">保存</button></td>

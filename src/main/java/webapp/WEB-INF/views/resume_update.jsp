@@ -11,6 +11,7 @@
 </head>
 <body>
 <form>
+    <input type="hidden" value="${sessionScope.message.id}" name="person_id">
     <table border="2px" cellpadding="20px" cellspacing="0">
         <thead style="text-align: center">
         <tr>
