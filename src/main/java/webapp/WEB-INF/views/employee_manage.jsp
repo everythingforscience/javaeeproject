@@ -27,5 +27,24 @@
         </c:forEach>
     </table>
 </form>
+<div id="personnel_transfer" hidden align="center">
+    <form>
+        <label for="department">请选择调动的部门职位</label>
+        <select name="department" id="department">
+            <c:forEach items="${departments}" var="department">
+                <option value="${department}">${department}</option>
+            </c:forEach>
+        </select>
+        <button type="submit" class="btn btn-primary" id="affirm">确认</button>
+        <button class="btn btn-primary" id="return">取消</button>
+    </form>
+</div>
+<div id="checking_in" hidden align="center">
+    <select name="workdays" id="workdays">
+        <c:forEach items="${workdays}" var="workday">
+            <option value="${workday}">${workday}</option>
+        </c:forEach>
+    </select>
+</div>
 </body>
 </html>

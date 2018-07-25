@@ -17,5 +17,26 @@
     <li><a href="#">工资异议</a></li>
     <li><a href="#">退出</a></li>
 </ul>
+<div id="recruitment_information_management">
+
+</div>
+<div id="department&position">
+
+</div>
+<div id="train_manage">
+
+</div>
+<div id="employee_manage">
+
+</div>
+<div id="award&punish_manage">
+
+</div>
+<div id="salary_manage">
+
+</div>
+<div id="salary_objection_manage">
+
+</div>
 </body>
 </html>

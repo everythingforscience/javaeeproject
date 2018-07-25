@@ -21,5 +21,26 @@
     <li><a href="#">上班打卡</a></li>
     <li><a href="#">下班打卡</a></li>
 </ul>
+<div id="personal_message">
+
+</div>
+<div id="my_checkingin">
+
+</div>
+<div id="update_password">
+
+</div>
+<div id="my_award&punish">
+
+</div>
+<div id="department&position">
+
+</div>
+<div id="other">
+
+</div>
+<div id="my_salary">
+
+</div>
 </body>
 </html>
